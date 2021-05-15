@@ -10,6 +10,14 @@
     },
     {
       "method": "GET",
+      "path": "/songs/me",
+      "handler": "songs.me",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/songs/count",
       "handler": "songs.count",
       "config": {
